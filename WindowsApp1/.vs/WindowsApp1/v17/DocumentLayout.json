@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\shail\\source\\repos\\WindowsApp1\\windowsapp1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\shail\\source\\repos\\WindowsApp1\\windowsapp1\\formcreatesubmission.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\formcreatesubmission.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\shail\\source\\repos\\WindowsApp1\\windowsapp1\\formcreatesubmission.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\formcreatesubmission.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\shail\\source\\repos\\windowsapp1\\windowsapp1\\formupdate.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\formupdate.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\shail\\source\\repos\\WindowsApp1\\windowsapp1\\formviewsubmission.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\formviewsubmission.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\shail\\source\\repos\\WindowsApp1\\windowsapp1\\formdelete.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\formdelete.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\shail\\source\\repos\\windowsapp1\\windowsapp1\\formupdate.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\formupdate.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\shail\\source\\repos\\windowsapp1\\windowsapp1\\formdelete.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\formdelete.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\shail\\source\\repos\\WindowsApp1\\windowsapp1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\shail\\source\\repos\\WindowsApp1\\windowsapp1\\formviewsubmission.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{05124513-CA34-4350-A7E3-25AF83C95E02}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\formviewsubmission.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormViewSubmission.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormViewSubmission.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\FormViewSubmission.vb",
+              "ToolTip": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormViewSubmission.vb [Design]",
+              "RelativeToolTip": "WindowsApp1\\FormViewSubmission.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-19T18:28:07.271Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormDelete.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormDelete.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\FormDelete.vb",
+              "ToolTip": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormDelete.vb [Design]",
+              "RelativeToolTip": "WindowsApp1\\FormDelete.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-20T06:44:34.476Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormUpdate.vb",
+              "DocumentMoniker": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormUpdate.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\FormUpdate.vb",
+              "ToolTip": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormUpdate.vb",
+              "RelativeToolTip": "WindowsApp1\\FormUpdate.vb",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAtwJAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-20T07:22:14.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormCreateSubmission.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormCreateSubmission.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\FormCreateSubmission.vb",
+              "ToolTip": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormCreateSubmission.vb [Design]",
+              "RelativeToolTip": "WindowsApp1\\FormCreateSubmission.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-19T18:17:01.292Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormDelete.vb",
+              "DocumentMoniker": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormDelete.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\FormDelete.vb",
+              "ToolTip": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormDelete.vb",
+              "RelativeToolTip": "WindowsApp1\\FormDelete.vb",
+              "ViewState": "AQIAACoAAAAAAAAAAAAiwHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-20T06:45:02.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\Form1.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\Form1.vb",
+              "ToolTip": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\Form1.vb [Design]",
+              "RelativeToolTip": "WindowsApp1\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-19T18:07:09.583Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormCreateSubmission.vb",
+              "DocumentMoniker": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormCreateSubmission.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\FormCreateSubmission.vb",
+              "ToolTip": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormCreateSubmission.vb",
+              "RelativeToolTip": "WindowsApp1\\FormCreateSubmission.vb",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAUwIkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-19T18:24:05.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormUpdate.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormUpdate.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\FormUpdate.vb",
+              "ToolTip": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormUpdate.vb [Design]",
+              "RelativeToolTip": "WindowsApp1\\FormUpdate.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-20T07:16:55.84Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\Form1.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\Form1.vb",
+              "ToolTip": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\Form1.vb",
+              "RelativeToolTip": "WindowsApp1\\Form1.vb",
+              "ViewState": "AQIAACsAAAAAAAAAAAD4v0AAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-19T18:07:15.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormViewSubmission.vb",
+              "DocumentMoniker": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormViewSubmission.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\FormViewSubmission.vb",
+              "ToolTip": "C:\\Users\\shail\\source\\repos\\WindowsApp1\\WindowsApp1\\FormViewSubmission.vb",
+              "RelativeToolTip": "WindowsApp1\\FormViewSubmission.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-19T18:43:45.486Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
