@@ -1,4 +1,4 @@
-# my_slidely_task:: VB.NET Windows Forms Application with TypeScript + Express Server
+# My Slidely Task - 2 :: VB.NET Windows Forms Application with TypeScript + Express Server
 
 This project is a Windows Forms application written in VB.NET that interacts with a TypeScript + Express server. The application allows users to create, read, update, and delete entries stored in a JSON file on the server. The entries consist of name, email, phone number, GitHub link, and time spent (measured by a stopwatch).
 
