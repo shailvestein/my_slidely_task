@@ -1,6 +1,4 @@
-# my_slidely_task
-
-# VB.NET Windows Forms Application with TypeScript + Express Server
+# my_slidely_task:: VB.NET Windows Forms Application with TypeScript + Express Server
 
 This project is a Windows Forms application written in VB.NET that interacts with a TypeScript + Express server. The application allows users to create, read, update, and delete entries stored in a JSON file on the server. The entries consist of name, email, phone number, GitHub link, and time spent (measured by a stopwatch).
 
@@ -216,7 +214,3 @@ The application includes robust error handling with `Try...Catch` blocks around 
 4. Click "Update" to save the changes.
 
 ---
-
-Feel free to contribute to this project by submitting issues or pull requests. If you encounter any problems, please open an issue on GitHub.
-
-Happy coding!
