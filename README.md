@@ -25,9 +25,31 @@ This project is a Windows Forms application written in VB.NET that interacts wit
 
 ## Setup Instructions
 
-### Backend Setup
+### Hosting an Express Server Locally for Backend 
 
-1. **Install dependencies:**
+1. **Install Node.js**:
+   - If you haven't already, download and install Node.js from [nodejs.org](https://nodejs.org/). This includes npm (Node Package Manager).
+
+2. **Initialize Your Express Project**:
+   - Open a terminal or command prompt.
+   - Create a new directory for your Express project:
+     ```sh
+     mkdir NodejsWebApp1
+     ```
+   - Navigate into your project directory:
+     ```sh
+     cd NodejsWebApp1
+     ```
+   - Initialize a new npm project:
+     ```sh
+     npm init -y
+     ```
+
+3. **Install Express and dependencies**:
+   - Install Express as a dependency for your project:
+     ```sh
+     npm install express
+     ```
 
     ```sh
     npm init -y
@@ -35,7 +57,7 @@ This project is a Windows Forms application written in VB.NET that interacts wit
     npm install --save-dev typescript ts-node @types/node @types/express
     ```
 
-2. **Setup TypeScript configuration:**
+4. **Setup TypeScript configuration:**
 
     Create `tsconfig.json`:
 
@@ -52,7 +74,7 @@ This project is a Windows Forms application written in VB.NET that interacts wit
     }
     ```
 
-3. **Create server files:**
+5. **Create server files:**
 
     Create `src/index.ts` and `db.json`:
 
@@ -61,84 +83,33 @@ This project is a Windows Forms application written in VB.NET that interacts wit
     cd src
     touch index.ts db.json
     ```
+    
+6. **Create Your Express Server**:
+   - Create a file named `server.js` (or any name you prefer) in your project directory.
+   - Open `server.js` and write your Express server code. For example:
+     ```javascript
+     const express = require('express');
+     const app = express();
+     const port = 3000;
 
-4. **Implement the server code in `index.ts`:**
+     app.get('/', (req, res) => {
+       res.send('Hello World!');
+     });
 
-    ```typescript
-    import express, { Request, Response } from 'express';
-    import fs from 'fs';
-    import cors from 'cors';
+     app.listen(port, () => {
+       console.log(`Express server listening at http://localhost:${port}`);
+     });
+     ```
 
-    const app = express();
-    const PORT = 3000;
-    app.use(express.json());
-    app.use(cors());
+7. **Run Your Express Server**:
+   - In the terminal, run your server:
+     ```sh
+     node server.js
+     ```
+   - You should see a message indicating that your Express server is running on `http://localhost:3000`.
 
-    const readDataFromFile = (): any[] => {
-        const data = fs.readFileSync('src/db.json', 'utf8');
-        return JSON.parse(data || '[]');
-    };
 
-    const writeDataToFile = (data: any[]): void => {
-        fs.writeFileSync('src/db.json', JSON.stringify(data, null, 2), 'utf8');
-    };
-
-    app.get('/ping', (req: Request, res: Response) => {
-        res.json({ success: true });
-    });
-
-    app.post('/submit', (req: Request, res: Response) => {
-        const { name, email, phone, githubLink, timeSpent } = req.body;
-        const data = readDataFromFile();
-        data.push({ name, email, phone, githubLink, timeSpent });
-        writeDataToFile(data);
-        res.json({ success: true });
-    });
-
-    app.get('/read', (req: Request, res: Response) => {
-        const data = readDataFromFile();
-        res.json(data);
-    });
-
-    app.get('/read/:email', (req: Request, res: Response) => {
-        const email = req.params.email;
-        const data = readDataFromFile();
-        const entry = data.find((entry: any) => entry.email === email);
-        if (entry) {
-            res.json(entry);
-        } else {
-            res.status(404).json({ error: "Not Found" });
-        }
-    });
-
-    app.delete('/delete/:email', (req: Request, res: Response) => {
-        const email = req.params.email;
-        let data = readDataFromFile();
-        data = data.filter((entry: any) => entry.email !== email);
-        writeDataToFile(data);
-        res.json({ success: true });
-    });
-
-    app.put('/update/:email', (req: Request, res: Response) => {
-        const email = req.params.email;
-        const { name, phone, githubLink } = req.body;
-        let data = readDataFromFile();
-        const index = data.findIndex((entry: any) => entry.email === email);
-        if (index !== -1) {
-            data[index] = { ...data[index], name, phone, githubLink };
-            writeDataToFile(data);
-            res.json({ success: true });
-        } else {
-            res.status(404).json({ error: "Not Found" });
-        }
-    });
-
-    app.listen(PORT, () => {
-        console.log(`Server is running on http://localhost:${PORT}`);
-    });
-    ```
-
-5. **Build and start the server:**
+8. **Build and start the server:**
 
     ```sh
     npx tsc
@@ -146,7 +117,7 @@ This project is a Windows Forms application written in VB.NET that interacts wit
 
     # Server is running on http://localhost:3000
     ```
-6. **Check on browser:**
+9. **Check on browser:**
    ```sh
    Ping Endpoint: Open a browser and go to http://localhost:3000/ping. You should see "true" always while the server is running.
    ```
