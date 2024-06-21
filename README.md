@@ -124,7 +124,7 @@ This project is a Windows Forms application written in VB.NET that interacts wit
 
 ### Frontend Setup
 
-#### Step 1: Create Windows Forms Application
+Create Windows Forms Application
 
 1. **Open Visual Studio**
    - Launch Visual Studio on your computer.
