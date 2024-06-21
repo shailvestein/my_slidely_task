@@ -59,12 +59,12 @@ This project is a Windows Forms application written in VB.NET that interacts wit
 
 4. **Create server files:**
 
-    Create `src/index.ts` and `data.json`:
+    Create `src/index.ts` and `db.json`:
 
     ```sh
     mkdir src
     cd src
-    touch index.ts data.json
+    touch index.ts db.json
     ```
 
 5. **Implement the server code in `index.ts`:**
@@ -80,12 +80,12 @@ This project is a Windows Forms application written in VB.NET that interacts wit
     app.use(cors());
 
     const readDataFromFile = (): any[] => {
-        const data = fs.readFileSync('src/data.json', 'utf8');
+        const data = fs.readFileSync('src/db.json', 'utf8');
         return JSON.parse(data || '[]');
     };
 
     const writeDataToFile = (data: any[]): void => {
-        fs.writeFileSync('src/data.json', JSON.stringify(data, null, 2), 'utf8');
+        fs.writeFileSync('src/db.json', JSON.stringify(data, null, 2), 'utf8');
     };
 
     app.get('/ping', (req: Request, res: Response) => {
