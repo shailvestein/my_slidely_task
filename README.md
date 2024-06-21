@@ -27,20 +27,15 @@ This project is a Windows Forms application written in VB.NET that interacts wit
 
 ### Backend Setup
 
-1. **Clone the repository:**
+1. **Install dependencies:**
 
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>/server
+    npm init -y
+    npm install express body-parser
+    npm install --save-dev typescript ts-node @types/node @types/express
     ```
 
-2. **Install dependencies:**
-
-    ```sh
-    npm install
-    ```
-
-3. **Setup TypeScript configuration:**
+2. **Setup TypeScript configuration:**
 
     Create `tsconfig.json`:
 
@@ -57,7 +52,7 @@ This project is a Windows Forms application written in VB.NET that interacts wit
     }
     ```
 
-4. **Create server files:**
+3. **Create server files:**
 
     Create `src/index.ts` and `db.json`:
 
@@ -67,7 +62,7 @@ This project is a Windows Forms application written in VB.NET that interacts wit
     touch index.ts db.json
     ```
 
-5. **Implement the server code in `index.ts`:**
+4. **Implement the server code in `index.ts`:**
 
     ```typescript
     import express, { Request, Response } from 'express';
@@ -143,7 +138,7 @@ This project is a Windows Forms application written in VB.NET that interacts wit
     });
     ```
 
-6. **Build and start the server:**
+5. **Build and start the server:**
 
     ```sh
     npm run build
