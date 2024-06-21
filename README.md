@@ -141,9 +141,15 @@ This project is a Windows Forms application written in VB.NET that interacts wit
 5. **Build and start the server:**
 
     ```sh
-    npm run build
-    npm start
+    npx tsc
+    npx ts-node src/index.ts
+
+    # Server is running on http://localhost:3000
     ```
+6. **Check on browser:**
+   ```sh
+   Ping Endpoint: Open a browser and go to http://localhost:3000/ping. You should see "true" always while the server is running.
+   ```
 
 ### Frontend Setup
 
