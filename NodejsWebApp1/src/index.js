@@ -10,7 +10,7 @@ const path_1 = __importDefault(require("path"));
 const app = (0, express_1.default)();
 const PORT = 3000;
 app.use(body_parser_1.default.json());
-const dataFilePath = path_1.default.join(__dirname, 'data.json');
+const dataFilePath = path_1.default.join(__dirname, 'db.json');
 app.get('/ping', (req, res) => {
     res.json(true);
 });
