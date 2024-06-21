@@ -153,20 +153,23 @@ This project is a Windows Forms application written in VB.NET that interacts wit
 
 ### Frontend Setup
 
-1. **Open the solution in Visual Studio 2022:**
+#### Step 1: Create Windows Forms Application
 
-    ```sh
-    cd ../client
-    ```
+1. **Open Visual Studio**
+   - Launch Visual Studio on your computer.
 
-2. **Open the `.sln` file in Visual Studio 2022.**
+2. **Create a New Project**
+   - Go to `File > New > Project`.
+   - Select `Windows Forms App (.NET Framework)` and click `Next`.
+   - Name your project, choose a location, and click `Create`.
 
-3. **Build the solution** to restore dependencies and ensure all references are correct.
+3. **Design the Form**
+   - Use the toolbox to drag and drop controls onto the form.
+   - Arrange and configure these controls as needed.
 
 4. **Run the application.**
 
 ## Application Features
-
 - **Create Submission:** Allows users to enter and submit their details, including a stopwatch timer.
 - **View Submissions:** Displays the details of submissions one by one with navigation buttons.
 - **Update Submission:** Allows users to search for a submission by email and update the details.
