@@ -163,11 +163,18 @@ This project is a Windows Forms application written in VB.NET that interacts wit
    - Select `Windows Forms App (.NET Framework)` and click `Next`.
    - Name your project, choose a location, and click `Create`.
 
-3. **Design the Form**
-   - Use the toolbox to drag and drop controls onto the form.
-   - Arrange and configure these controls as needed.
+3. **Design Your Form**:
+   - Once the project is created, you will see `Form1.vb` (or similar) in the Solution Explorer.
+   - Double-click `Form1.vb` to open the designer.
+   - Design your form by dragging and dropping controls from the Toolbox onto the form.
 
-4. **Run the application.**
+4. **Write Visual Basic Code**:
+   - Double-click on any control on the form to create an event handler (e.g., `Button_Click`).
+   - Write your Visual Basic code in the event handlers to define the behavior of your application.
+
+5. **Build and Run**:
+   - Press `F5` or click `Start` in the toolbar to build and run your Windows Forms application.
+   - The form you designed will appear, and you can interact with it based on your code.
 
 ## Application Features
 - **Create Submission:** Allows users to enter and submit their details, including a stopwatch timer.
