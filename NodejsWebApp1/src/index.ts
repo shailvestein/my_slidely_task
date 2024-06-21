@@ -8,7 +8,7 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-const dataFilePath = path.join(__dirname, 'data.json');
+const dataFilePath = path.join(__dirname, 'db.json');
 
 // Helper functions
 const readDataFromFile = () => {
