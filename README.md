@@ -28,9 +28,9 @@ This project is a Windows Forms application written in VB.NET that interacts wit
 ### Hosting an Express Server Locally for Backend 
 
 1. **Install Node.js**:
-   - If you haven't already, download and install Node.js from [nodejs.org](https://nodejs.org/). This includes npm (Node Package Manager).
+   - Installed node.js from `visual studio installer`.
 
-2. **Initialize Your Express Project**:
+2. **Initialize Express Project**:
    - Open a terminal or command prompt.
    - Create a new directory for your Express project:
      ```sh
@@ -84,9 +84,9 @@ This project is a Windows Forms application written in VB.NET that interacts wit
     touch index.ts db.json
     ```
     
-6. **Create Your Express Server**:
-   - Create a file named `server.js` (or any name you prefer) in your project directory.
-   - Open `server.js` and write your Express server code. For example:
+6. **Create Express Server**:
+   - Created a file named `server.js` in project directory `NodejsWebApp1/NodejsWebApp1/server.js`
+   - Open `server.js` and wrote Express server code. For example:
      ```javascript
      const express = require('express');
      const app = express();
@@ -101,7 +101,7 @@ This project is a Windows Forms application written in VB.NET that interacts wit
      });
      ```
 
-7. **Run Your Express Server**:
+7. **Run Express Server**:
    - In the terminal, run your server:
      ```sh
      node server.js
@@ -127,25 +127,27 @@ This project is a Windows Forms application written in VB.NET that interacts wit
 Create Windows Forms Application
 
 1. **Open Visual Studio**
-   - Launch Visual Studio on your computer.
+   - Launched Visual Studio on your computer.
 
 2. **Create a New Project**
    - Go to `File > New > Project`.
-   - Select `Windows Forms App (.NET Framework)` and click `Next`.
-   - Name your project, choose a location, and click `Create`.
+   - Select `Windows Forms App (.NET Framework)` and clicked `Next`.
+   - Named `WindowsApp1` project, chose a location, and clicked `Create`.
 
-3. **Design Your Form**:
-   - Once the project is created, you will see `Form1.vb` (or similar) in the Solution Explorer.
+3. **Design Forms**:
+   - Once the project is created, we can see `Form1.vb` (or similar) in the Solution Explorer.
    - Double-click `Form1.vb` to open the designer.
-   - Design your form by dragging and dropping controls from the Toolbox onto the form.
+   - Design form by dragging and dropping controls from the Toolbox onto the form.
+   - Similarly all the other required forms were designed.
 
 4. **Write Visual Basic Code**:
    - Double-click on any control on the form to create an event handler (e.g., `Button_Click`).
-   - Write your Visual Basic code in the event handlers to define the behavior of your application.
+   - Wrote Visual Basic code in the event handlers to define the behavior of the application.
+   - Linked all the forms.
 
 5. **Build and Run**:
-   - Press `F5` or click `Start` in the toolbar to build and run your Windows Forms application.
-   - The form you designed will appear, and you can interact with it based on your code.
+   - Press `F5` or click `Start` in the toolbar to build and run Windows Forms application.
+   - The form designed will appear, and you can interact with it based on code.
 
 ## Application Features
 - **Create Submission:** Allows users to enter and submit their details, including a stopwatch timer.
