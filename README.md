@@ -3,7 +3,7 @@
 This project is a Windows Forms application written in VB.NET that interacts with a TypeScript + Express server. The application allows users to create, read, update, and delete entries stored in a JSON file on the server. The entries consist of name, email, phone number, GitHub link, and time spent (measured by a stopwatch).
 
 
-![Homepage](home-page.jpg)
+![Homepage](./home-page.jpg)
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
