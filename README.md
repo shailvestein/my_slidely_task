@@ -177,7 +177,7 @@ The application includes robust error handling with `Try...Catch` blocks around 
 
 ### Creating an Entry
 
-1. Open the application.
+1. Open the application. ![Homepage](home-page.JPG)
 2. Click on "Create Submission" or press `Ctrl + N`.
 3. Fill in the details.
 4. Use the stopwatch as needed.
