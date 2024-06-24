@@ -124,6 +124,8 @@ This project is a Windows Forms application written in VB.NET that interacts wit
    Ping Endpoint: Open a browser and go to http://localhost:3000/ping. You should see "true" always while the server is running.
    ```
 
+   ![ping](ping.JPG)
+
 ### Frontend Setup
 
 Create Windows Forms Application
@@ -180,23 +182,23 @@ The application includes robust error handling with `Try...Catch` blocks around 
 3. Fill in the details.
 4. Use the stopwatch as needed.
 5. Click "Submit" or press `Ctrl + S` to save the entry.
-
+![Creating Submission](create-submission.JPG)
 ### Viewing Entries
 
 1. Click on "View Submission" or press `Ctrl + V`.
 2. Navigate through the entries using the "Previous" (`Ctrl + P`) and "Next" (`Ctrl + N`) buttons.
-
+![View Submission](view-submission.JPG)
 ### Deleting an Entry
 
 1. Click on "Delete Submission" and enter the email address.
 2. Click "Search" to find the entry.
 3. Click "Delete" to remove the entry from the database.
-
+![Deletin Submission](delete-submission-2.JPG)
 ### Updating an Entry
 
 1. Click on "Update Submission" and enter the email address.
 2. Click "Search" to find the entry.
 3. Update the details as needed.
 4. Click "Update" to save the changes.
-
+![Update Submission](update-submission.JPG)
 ---
