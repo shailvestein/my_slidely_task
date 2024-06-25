@@ -3,7 +3,7 @@
 This project is a Windows Forms application written in VB.NET that interacts with a TypeScript + Express server. The application allows users to create, read, update, and delete entries stored in a JSON file on the server. The entries consist of name, email, phone number, GitHub link, and time spent (measured by a stopwatch).
 
 
-![Homepage](home-page.JPG)
+![Homepage](images/home-page.JPG)
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
@@ -124,7 +124,7 @@ This project is a Windows Forms application written in VB.NET that interacts wit
    Ping Endpoint: Open a browser and go to http://localhost:3000/ping. You should see "true" always while the server is running.
    ```
 
-   ![ping](ping.JPG)
+   ![ping](images/ping.JPG)
 
 ### Frontend Setup
 
@@ -177,28 +177,28 @@ The application includes robust error handling with `Try...Catch` blocks around 
 
 ### Creating an Entry
 
-1. Open the application. ![Homepage](home-page.JPG)
+1. Open the application. ![Homepage](images/home-page.JPG)
 2. Click on "Create Submission" or press `Ctrl + N`.
 3. Fill in the details.
 4. Use the stopwatch as needed.
 5. Click "Submit" or press `Ctrl + S` to save the entry.
-![Creating Submission](create-submission.JPG)
+![Creating Submission](images/create-submission.JPG)
 ### Viewing Entries
 
 1. Click on "View Submission" or press `Ctrl + V`.
 2. Navigate through the entries using the "Previous" (`Ctrl + P`) and "Next" (`Ctrl + N`) buttons.
-![View Submission](view-submission.JPG)
+![View Submission](images/view-submission.JPG)
 ### Deleting an Entry
 
 1. Click on "Delete Submission" and enter the email address.
 2. Click "Search" to find the entry.
 3. Click "Delete" to remove the entry from the database.
-![Deletin Submission](delete-submission-2.JPG)
+![Deletin Submission](images/delete-submission-2.JPG)
 ### Updating an Entry
 
 1. Click on "Update Submission" and enter the email address.
 2. Click "Search" to find the entry.
 3. Update the details as needed.
 4. Click "Update" to save the changes.
-![Update Submission](update-submission.JPG)
+![Update Submission](images/update-submission.JPG)
 ---
